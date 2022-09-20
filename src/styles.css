@@ -1,1 +1,48 @@
 /* You can add global styles to this file, and also import other style files */
+body{
+    background-color: rgb(206, 201, 201);
+}
+
+#tablecontent:hover{
+    background-color: rgb(157, 201, 238);
+    
+
+}
+th{
+    font-size: smaller;
+}
+tr{
+    font-size: 0.9em;
+}
+#view{
+    text-align: right;
+    
+}
+#view:hover{
+    text-decoration: underline;
+}
+#btn1{
+    width: 7rem;
+    height: 3rem;
+    font-weight: 600;
+}
+#btn1:hover{
+    background-color: rgb(119, 189, 235);
+    border-color: rgb(119, 189, 235);
+}
+
+.image-cropper {
+    width: 40px;
+    height: 40px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+  }
+  
+  img {
+    display: inline;
+    margin: 0 auto;
+    height: 100%;
+    width: auto;
+  }
+  
